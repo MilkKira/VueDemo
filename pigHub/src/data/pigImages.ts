@@ -1,6 +1,6 @@
-import type { PigImage } from '../types'
+import type { PigImage } from '../types/types'
 
-const baseUrl = 'https://pighub.top/data/'
+const baseUrl = '/data/'
 
 export const pigImages: PigImage[] = [
   ['猪籽军舰', '猪籽军舰.jpeg', 109033, 5245],
@@ -16,7 +16,7 @@ export const pigImages: PigImage[] = [
   ['猪下床', '猪下床.jpg', 112765, 2392],
   ['猪奶', '猪奶.jpg', 113092, 1946],
   ['！？', '！？.jpg', 145383, 5359],
-  ['？', '？.jpg', 142512, 8550],
+  ['猪突猛进', '猪突猛进.jpg', 7790, 167],
   ['？！', '？！.jpg', 151500, 1385],
   ['+1猪', '+1猪.jpg', 153605, 3236],
 ].map(([title, fileName, views, downloads], index) => ({
