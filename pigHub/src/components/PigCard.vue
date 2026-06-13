@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { PigImage } from '../types'
+import type { PigImage } from '../types/types'
 
 const props = defineProps<{ pig: PigImage }>()
 const copied = ref(false)
