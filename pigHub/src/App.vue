@@ -1,7 +1,12 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import PigFooter from './components/PigFooter.vue'
+import PigHeader from './components/pigHeader.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="app-shell">
+    <PigHeader />
+    <RouterView />
+    <PigFooter />
+  </div>
 </template>
